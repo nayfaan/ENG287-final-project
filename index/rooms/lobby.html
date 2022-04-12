@@ -1,0 +1,26 @@
+<div id="header">
+	<h1>{{header}}</h1>
+	<p>{{desc}}</p>
+</div>
+<div id = "content">
+    <p dynamic="lobby"></p>
+</div>
+
+<div id = "map" class="tg-wrap">
+    <table>
+        <tr>
+            <td>&nbsp<a href="#/kitchen">Kitchen</a>&nbsp</td>
+            <td style="visibility: {{map.luggageRm}};">&nbsp<a href="#/luggageRm">Luggage Room</a>&nbsp</td>
+            <td style="visibility: {{map.duncan}};">&nbsp<a href="#/duncan">Room 201</a>&nbsp</td>
+            <td style="visibility: {{map.MD}};">&nbsp<a href="#/MD">Room 204</a>&nbsp</td>
+            <td>&nbsp<a href="#/MB">Room 213</a>&nbsp</td>
+        </tr>
+        <tr>
+            <td style="visibility: {{map.cemetery}};">&nbsp<a href="#/cemetery">Cemetery</a>&nbsp</td>
+            <td>&nbsp<a href="#/alley">Main Street</a>&nbsp</td>
+            <td style="visibility: {{map.forest}};">&nbsp<a href="#/forest">The Woodland</a>&nbsp</td>
+            <td>&nbsp<a href="#/hall">Banquet Hall</a>&nbsp</td>
+            <td>&nbsp&nbsp</td>
+        </tr>
+    </table>
+</div>

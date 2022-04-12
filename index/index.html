@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="myApp" ng-init="Hecate = 'the women in a red dress'; MB = 'a royal man'; Agnes = 'a lady'; LMD = 'a royal lady'; Bald = 'a hideous figure'; Sexy = 'a hideous figure'; Boy = 'a hideous figure'; Banquo = 'a royal man'; LMB = 'a royal lady'; Maid = 'a lady'; Porter = 'a boy'; Malcolm = 'a man'; MD = 'a royal man'; Duncan = 'a man wearing a crown'; tailor = 'a man'; taxidermist = 'a man'; bartender = 'a man'; voice = 'male voice in the phone'; candy = 'a lady'; map.speakeasy = 'visible'; map.tailor = 'visible'; map.orgy = 'visible'; map.showers = 'hidden'; map.MD = 'visible'; map.duncan = 'hidden'; map.forest = 'visible'; map.cemetery = 'visible'; map.luggageRm = 'visible'; map.crypt = 'hidden'; map.detective = 'visible'; map.taxidermy = 'visible'; map.solo.speakeasy = 'visible'; map.solo.tailor = 'visible'; map.solo.cemetery = 'visible'; map.solo.luggageRm = 'visible'; map.solo.taxidermy = 'visible';">
+
+<head>
+	<meta charset="utf-8">
+ <!-- AngularJS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-route.js"></script>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-sanitize.js"></script>
+  <!-- JS -->
+  <script src="index.js"></script>
+  <script src="timer.js"></script>
+  <script src="content.js"></script>
+  <!-- CSS -->
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="timer.css">
+
+<title>Sleep No More</title>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="introController"> 
+   
+    <div id="timer">
+    	<div id="timerCircle">
+    		<div id="timerLine"></div>
+    	</div>
+    </div>
+	
+	<div id="main">
+		<div ng-view></div>
+	</div>
+
+</body>
+
+</html>

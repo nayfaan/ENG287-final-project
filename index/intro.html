@@ -1,0 +1,11 @@
+<div id="header">
+</div>
+<div id = "content" ng-app="myApp" ng-init="intro='hey wake up.'; wakeUpButton='none'; attendButton='none'; confirmNameButton='none'" style = "overflow: hidden;">
+	<input id="startButton" type="button" value="START" data-ng-click="introLoad()">
+	<!-- TEXT -->
+	<p dynamic="intro"></p>
+	<!-- /TEXT -->
+	<p><input type="button" value="Wake Up" data-ng-click="introWakeUp()" style="background-color: #000000; color: #ffffff; font-size: 100%; font-family:Courier; display:{{wakeUpButton}};"></p>
+	<p><input type="button" value="YES" data-ng-click="introYes()" style="background-color: #000000; color: #ffffff; font-size: 100%; font-family: Courier; display:{{attendButton}};"> <input type="button" value="NO" data-ng-click="introNo()" style="background-color: #000000; color: #ffffff; font-size: 100%; font-family: Courier; display:{{attendButton}};"></p>
+	<p><input type="button" value="Confirm" data-ng-click="introConfirmName()" style="background-color: #000000; color: #ffffff; font-size: 100%; font-family: Courier; display:{{confirmNameButton}};"></p>
+</div>

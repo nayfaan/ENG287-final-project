@@ -1,0 +1,117 @@
+@charset "utf-8";
+body {
+	color: #000000;
+}
+
+p{
+	font-size: 150%;
+	font-family:Courier;
+}
+
+/* unvisited link */
+a:link {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #888888;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+}
+
+input[type=text] {
+	background-color: #000000;
+	color: #ffffff;
+	font-family:Courier;
+	width: 360px;
+	font-size: 100%;
+}
+
+input[type=button] {
+	color: #ffffff;
+	font-size: 100%;
+}
+
+table {
+	border: none;
+}
+
+td {
+	font-size: 150%;
+}
+
+#timer {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	bottom: 0;
+	width: 220px;
+	overflow: hidden; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable rollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+	background-color: #000000;
+}
+
+#main {
+	position: fixed;
+	top: 0; /* Set this to the height of the header */
+	left: 220px; 
+	right: 0;
+	bottom: 0;
+	overflow: auto; 
+	background-color: #000000;
+	font-family: Courier;
+}
+
+#header{
+	position: fixed; 
+	top: 0; 
+	left: 220px; 
+	right: 0;
+	height: 35%;
+	color: #ffffff;
+	text-align: left;
+	overflow: hidden;
+	background-color: #000000;
+	padding: 0px;
+}	
+
+#content{
+	position: fixed;
+	left: 220px;
+	top: 35%; 
+	right: 0;
+	bottom: 15%;
+	color: #ffffff;
+	text-align: left;
+	overflow: auto;
+	background-color: #000000;
+}
+
+#map{
+	position: fixed; 
+	bottom: 0; 
+	left: 220px; 
+	right: 0;
+	height: 15%;
+	color: #ffffff;
+	text-align: left;
+	overflow: auto;
+	background-color: #000000;
+}
+
+#startButton {
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	border: none;
+	font-size: 1000%;
+}
