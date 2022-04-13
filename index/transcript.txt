@@ -6,7 +6,7 @@ Welcome to the "Sleep No More" digital adaptation. Few things to keep in mind wh
 2. Please do not refresh the webpage as it will break the programme. There is a restart button at the end of each runthrough to restart. If you really want to reset, please directly visit the home page: http://individual.utoronto.ca/nayfaan/courses/ENG287/index.html
 3. Please turn on the volume to enjoy a specially mixed music that enhances the reading experience
 4. While character names may seem confusing at first, do try to rename the characters you have met to make the story more clearer to you. If you reset using the reset button at the end, the character names you provided will carry through to your next run through. (Editing the character names may be a pain to do with the current programme as the page keeps on refreshing, but it is definitely worth it)
-5. EMJOY!
+5. ENJOY!
 
 //////////////////////////////////////////////////////////////////////////*/
  
